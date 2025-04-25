@@ -4,4 +4,4 @@ def factorial(no): #basically this is the function that is used to calculate the
         return 1
     else:
         return no * factorial(no - 1)
-print(f"{number}! = {factorial(number)}")
+print(f"{number}! = {factorial(number)}")# after defining the function you can now use the function on the variable number
