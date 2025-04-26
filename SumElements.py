@@ -1,3 +1,4 @@
-my_marks = [60, 40, 60, 45, 89, 98]
-total = sum(my_marks)
+my_marks = input("Write your marks:")
+number = [int(mark) for mark in my_marks.split()] #changes your input from string to integers
+total = sum(number) #adds all the numbers in the list
 print(f"The total of your marks is {total}")
